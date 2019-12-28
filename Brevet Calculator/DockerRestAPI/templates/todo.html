@@ -1,0 +1,25 @@
+<!-- <form action="/new" method="POST">
+  <input type="text" name="name"></input>
+  <input type="text" name="description"></input>
+  <input type="submit"></input>
+</form> -->
+
+<h1> Brevet Start and End Times </<h1>
+
+
+<table class="display_table">
+  <tr>
+    <th> Distance (km)</th>
+    <th> Open Time </th>
+    <th> Close Time </th>
+  </tr>
+
+{% for item in items %}
+<tr class="brevet">
+  <td>{{ item.km }} </td>
+  <td> {{ item.open }} </td>
+  <td> {{ item.close }} </td>
+</tr>
+{% endfor %}
+
+</table>

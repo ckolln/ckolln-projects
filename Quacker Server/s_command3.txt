@@ -1,0 +1,7 @@
+sleep 3999
+get 1
+get 4
+sleep 2000
+get 3
+sleep 3999
+stop

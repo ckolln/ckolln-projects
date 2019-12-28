@@ -1,0 +1,11 @@
+put 3 "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/portrait-of-a-funny-guinea-pig-in-human-hands-royalty-free-image-1076182342-1560261662.jpg" "sweet guinea pig"
+put 4 "https://cdn0.wideopenpets.com/wp-content/uploads/2019/10/Fish-Names-770x405.png" "Fish in water"
+sleep 4230
+put 2 "https://media.mnn.com/assets/images/2019/01/grumpy_cat.jpg.653x0_q80_crop-smart.jpg" "grumpy cat"
+sleep 3220
+put 1 "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlRMvjMfXS9fTTqrycDZk0ii2F98RkIwlmEprsqTG9xAiAHapJ&s" "running dog"
+put 3 "https://www.thesprucepets.com/thmb/biqY0udZ8IcADqxlR-B8jrMJmMo=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-117716396-583b47f83df78c6f6af8fb19.jpg" "guinea pig on leash"
+put 4 "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTepoocVzK3vFeKVlACMDdQJwlJWLJVAFS744r90zGD6DuF03znpQ&s" "fish in a bowl"
+sleep 4929
+put 2 "https://img.huffingtonpost.com/asset/5dcc613f1f00009304dee539.jpeg?cache=QaTFuOj2IM&ops=crop_834_777_4651_2994%2Cscalefit_720_noupscale" "scaredy cat"
+stop

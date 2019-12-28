@@ -1,0 +1,15 @@
+create topic 1 "puppy dogs" 2
+create topic 2 "kitty kats" 5
+create topic 3 "guinea pigs" 5
+create topic 4 "fish" 8
+add publisher "p_command1.txt"
+add subscriber "s_command1.txt"
+add publisher "p_command2.txt"
+add subscriber "s_command2.txt"
+add publisher "p_command3.txt"
+add subscriber "s_command3.txt"
+query subscribers
+query publishers
+query topics
+delta 6
+start
