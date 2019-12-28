@@ -1,0 +1,32 @@
+GamePlan: 
+
+
+Main Page: 
+
+3 buttons: check in, check out, currently out, full log
+
+object Client : will have 6  fields (Name, UOID#, Equipment rented, time in, time out, service rep)
+
+each piece of equipment will be an object: so you can search through and find who checked it out and when 
+
+I have been working on creating databases in mySQL: first i have currently_out.sql which I hope to connect to my other table loan_log.sql once the item is checked in. My goal is to have equipment items move in between the two tables
+
+CHECK IN PAGE:
+ 
+- display table of currently checked out items 
+- be able to either click on a button with the item to check it back in or have a field at the bottom which allows you to type in the resident's 95# to return the item they have checked out
+- maybe have a window that will pop up if the item is late to remind the resident of the items rental time for future
+
+CHECK OUT PAGE: 
+
+- a simple fill in field that will allow you to search the item, then if it is not currently out fill in the resident's details 
+
+CURRENTLY OUT PAGE:
+
+- will display the currently_out.sql table
+- sub-table that will have the items that are late 
+
+FULL LOG: 
+
+- will allow you to view every equipment item, click on it and then see the loan history 
+
